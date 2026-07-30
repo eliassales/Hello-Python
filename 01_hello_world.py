@@ -24,3 +24,5 @@ print(type(5)) # Tipo 'int'
 print(type(1.5)) # Tipo 'float'
 print(type(True)) # Tipo 'bool'
 print(type(2 + 3j)) # Tipo 'complex'
+
+print(type(print("Mi cadena"))) # Tipo 'NoneType'
