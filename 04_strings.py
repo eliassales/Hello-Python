@@ -2,8 +2,8 @@
 
 my_string = "Mi valor string"
 my_other_string = 'Mi otro valor'
-my_new_line_string = "Este es un string \n con salto de linea" # string con un salto de linea
-my_tab_string = "Este es un string \t con salto de linea" # string con tabulacion
+my_new_line_string = "Este es un string \ncon salto de linea" # string con un salto de linea
+my_tab_string = "Este es un string \t con tabulacion en la linea" # string con tabulacion
 
 print(my_string)
 print(my_other_string)
@@ -82,4 +82,3 @@ print(language.title()) # pone en mayuscula el primer caracter de cada palabra
 # starswith
 print(language.startswith("py")) # permite verificar si empieza con los caracteres indicados
 print(language.startswith("Py")) # false, porque p minuscula no es lo mismo que p en mayuscula
-

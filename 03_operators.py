@@ -4,9 +4,9 @@
 print("Suma:", 3 + 4)
 print("Resta:", 3 - 4)
 print("Multiplicacion:", 3 * 4)
-print("Division:", 14 / 3)
-print("Modulo:", 14 % 3)
-print("Floor Division:", 14 // 3) # redondea para abajo al entero mas cercano
+print("Division:", 14 / 4)
+print("Modulo:", 14 % 4)
+print("Floor Division:", 14 // 4) # redondea para abajo al entero mas cercano
 print("Exponente:", 2 ** 3)
 
 # Operadores con cadenas
@@ -44,4 +44,3 @@ print(3 > 4 or "Hola" > "Pyton") # con 'or' ambos false para false, el resto tru
 print(3 > 4 or "Hola" < "Pyton")
 print(3 < 4)
 print(not(3 < 4)) # con 'not' se invierte el valor, true pasa a false y viceversa
-
